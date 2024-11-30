@@ -291,7 +291,7 @@ body {
   }
 }
 
-@media (aspect-ratio < 1) {
+@media (max-width: 800px) {
   .frame10-title-short { /* My Offerings */
     font-size: 4.1vw;
     line-height: 8.52vw;
@@ -361,7 +361,7 @@ body {
   align-items: center;
 }
 
-@media (aspect-ratio < 1) {
+@media (max-width: 800px) {
   .frame12-cols-container {
     margin-left: 0;
     text-align: center;
@@ -431,7 +431,7 @@ body {
   font-weight: 700;
 }
 
-@media (aspect-ratio < 1) {
+@media (max-width: 800px) {
   .frame1-cols-container {
     margin-left: 0;
     gap: 0;
