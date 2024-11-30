@@ -27,6 +27,13 @@ body {
   float: right;
   margin-right: 4vw;
   margin-top: 7vh;
+  opacity: 0; /* Initially transparent */
+  transform: translateX(20px); /* Slight downward shift */
+  transition: opacity 1s ease, transform 1s ease; /* Smooth transition for both */
+}
+.frame14-image1.loaded {
+  opacity: 1; /* Fully visible */
+  transform: translateX(0); /* Reset position */
 }
 
 .frame14-text {
@@ -34,6 +41,13 @@ body {
   left: 3.5vw;
   top: 50vh;
   letter-spacing: -0.04em;
+  opacity: 0; /* Initially transparent */
+  transform: translateX(-20px); /* Slight downward shift */
+  transition: opacity 1s ease, transform 1s ease; /* Smooth transition for both */
+}
+.frame14-text.loaded {
+  opacity: 1; /* Fully visible */
+  transform: translateX(0); /* Reset position */
 }
 
 .frame14-text1 {/* Confidence Is Timeless and so is Style. */
@@ -135,6 +149,17 @@ body {
   }
 }
 
+@media (max-height: 700px) {
+  .frame14-text1 {/* Confidence Is Timeless and so is Style. */
+    font-size: 10vh;
+    line-height: 9vh;
+  }
+  .frame14-text2 { /* As your personal stylist, my mission is to guide you in discovering a look that makes you feel unique, empowered, and utterly comfortable.   */
+    font-size: 2.8vh;
+    line-height: 4.6vh;
+    margin-top: 3.5vh;
+  }
+}
 
 
 /* frame 2 */
