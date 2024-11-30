@@ -221,6 +221,9 @@ body {
   .frame2-cols-container {
     flex-direction: column; /* Stack items vertically */
   }
+  .frame2-col {
+    min-width: 0;
+  }
 }
 
 .button {
@@ -454,10 +457,10 @@ body {
   }
   .frame1-col {
     line-height: 32px;
+    min-width: 0;
     padding: 0 20px 10vw 20px
   }
 }
-
 
 /* footer */
 .footer-section {
@@ -470,7 +473,7 @@ body {
   font-style: normal;
   font-weight: 900;
   font-size: 30px;
-  line-height: 20px;
+  line-height: 40px;
   letter-spacing: 0.08em;
   color: #CC3712;
 }
@@ -483,7 +486,7 @@ body {
   line-height: 10px;
   letter-spacing: 0.08em;
   color: #000000;
-  margin-top: 25px;
+  margin-top: 10px;
 }
 .footer-button {
   text-decoration: none;
