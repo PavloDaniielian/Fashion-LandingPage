@@ -15,7 +15,7 @@ body {
   font-family: 'Arima Koshi';
   font-style: normal;
   font-weight: 900;
-  font-size: 30px;
+  font-size: 2.1vw;
   line-height: 20px;
   letter-spacing: 0.08em;
   padding: 8.6vh 0 8.6vh 0;
@@ -73,6 +73,9 @@ body {
 
 
 @media (max-width: 1440px) {
+  .frame14-title {
+    font-size: 30px;
+  }
   .frame14-text1 {/* Confidence Is Timeless and so is Style. */
     font-size: 90px;
     line-height: 80px;
@@ -285,13 +288,13 @@ body {
   margin-bottom: 2.52vw;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .frame10-col {
     flex: 1 1 48%; /* 2 columns on medium screens */
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .frame10-title-short { /* My Offerings */
     font-size: 4.1vw;
     line-height: 8.52vw;
