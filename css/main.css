@@ -127,15 +127,16 @@ body {
   }
 }
 
-@media (max-width: 799px) { /* mobile */
+@media (aspect-ratio < 1) { /* mobile */
   .frame14-image1 {
     width: 80vw;
     float: none;
     margin-right: 0;
+    margin-top: calc(27.3vh - 33vw);
   }
   .frame14-text {
     position: static;
-    margin-top: calc(70vh - 100vw);
+    margin-top: calc(27.3vh - 33vw);
     left: 0;
   }
   .frame14-text1 {/* Confidence Is Timeless and so is Style. */
@@ -198,7 +199,7 @@ body {
   box-sizing: border-box;
 }
 
-@media (max-width: 600px) {
+@media (aspect-ratio < 1) {
   .frame2-title { /* HOT MAMA BAKERY */
     font-size: 100px;
   }
@@ -290,7 +291,7 @@ body {
   }
 }
 
-@media (max-width: 600px) {
+@media (aspect-ratio < 1) {
   .frame10-title-short { /* My Offerings */
     font-size: 4.1vw;
     line-height: 8.52vw;
@@ -360,18 +361,21 @@ body {
   align-items: center;
 }
 
-@media (max-width: 600px) {
+@media (aspect-ratio < 1) {
   .frame12-cols-container {
     margin-left: 0;
+    text-align: center;
     flex-direction: column; /* Stack items vertically */
   }
   .frame12-col {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 20vw;
+    padding-right: 20vw;
   }
   .frame12-buttongroup-vertical {
     text-align: center;
     display: block;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
@@ -427,7 +431,7 @@ body {
   font-weight: 700;
 }
 
-@media (max-width: 600px) {
+@media (aspect-ratio < 1) {
   .frame1-cols-container {
     margin-left: 0;
     gap: 0;
