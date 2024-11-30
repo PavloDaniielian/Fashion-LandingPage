@@ -357,8 +357,7 @@ body {
   background-image: url(../assets/images/5-0.png);
   background-repeat: no-repeat;
   background-position: center top;
-  background-size: contain;
-  height: 86.6vw;
+  background-size: 100% auto;
   padding: 40vw 0 7vw 0;
 }
 
@@ -366,14 +365,14 @@ body {
   font-family: 'Anek Devanagari';
   font-style: normal;
   font-weight: 700;
-  font-size: 100px;
-  line-height: 90px;
+  font-size: 7vw;
+  line-height: 7vw;
   letter-spacing: -0.04em;
   color: #CC3712;
 }
 
 .frame1-mask {
-  margin-top: -4.4vw;
+  margin-top: -3.5vw;
   height: 45vw;
   background-color: #CC3712;
 }
@@ -382,13 +381,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 8vw;
-  padding: 100px 12vw 0 12vw;
-  font-family: 'Helvetica';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 42px;
-  letter-spacing: -0.04em;
+  padding: 120px 12vw 0 12vw;
   margin-top: -45vw;
 }
 
@@ -397,6 +390,12 @@ body {
   min-width: 280px;
   box-sizing: border-box;
   text-align: left;
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 42px;
+  letter-spacing: -0.04em;
 }
 
 .frame1-col-foot {
@@ -406,11 +405,12 @@ body {
 @media (max-width: 600px) {
   .frame1-cols-container {
     margin-left: 0;
+    gap: 0;
     flex-direction: column; /* Stack items vertically */
   }
   .frame1-col {
-    padding-left: 25px;
-    padding-right: 25px;
+    line-height: 32px;
+    padding: 0 20px 10vw 20px
   }
 }
 
