@@ -169,7 +169,7 @@ body {
 /* frame 2 */
 .frame2-section {
   background: #FFECD8;
-  padding: 177px 0 200px 0;
+  padding: 177px 0 150px 0;
 }
 
 .frame2-title { /* HOT MAMA BAKERY */
@@ -202,9 +202,21 @@ body {
   box-sizing: border-box;
 }
 
-@media (aspect-ratio < 1) {
+@media (max-width: 1024px) {
   .frame2-title { /* HOT MAMA BAKERY */
-    font-size: 100px;
+    font-size: 12.5vw;
+    line-height: 9.5vw;
+  }
+}
+@media (max-width: 350px) {
+  .frame2-cols-container {
+    font-size: 6.1vw;
+    line-height: 6.5vw;
+  }
+}
+@media (aspect-ratio < 1) {
+  .frame2-section {
+    padding: 6vh 0 6vh 0;
   }
   .frame2-cols-container {
     flex-direction: column; /* Stack items vertically */
