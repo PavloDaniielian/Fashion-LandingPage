@@ -1,0 +1,446 @@
+/* General Section Styling */
+body {
+  color: white;
+  text-align: center;
+}
+
+
+/* frame 14 */
+.frame14-section {
+  height: 100vh;
+  background: #CC3712;
+}
+
+.frame14-title {
+  font-family: 'Arima Koshi';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 20px;
+  letter-spacing: 0.08em;
+  padding: 8.6vh 0 8.6vh 0;
+}
+
+.frame14-image1 {
+  width: 49vw;
+  max-width: 75vh;
+  float: right;
+  margin-right: 4vw;
+  margin-top: 7vh;
+}
+
+.frame14-text {
+  position: absolute;
+  left: 3.5vw;
+  top: 50vh;
+  letter-spacing: -0.04em;
+}
+
+.frame14-text1 {/* Confidence Is Timeless and so is Style. */
+  font-family: 'Amiri';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 90px;
+}
+
+.frame14-text1 span{/* Confidence Is Timeless and so is Style. */
+  font-weight: 400;
+}
+
+.frame14-text2 { /* As your personal stylist, my mission is to guide you in discovering a look that makes you feel unique, empowered, and utterly comfortable.   */
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  margin-top: 35px;
+}
+
+
+@media (max-width: 1440px) {
+  .frame14-text1 {/* Confidence Is Timeless and so is Style. */
+    font-size: 90px;
+    line-height: 80px;
+  }
+  .frame14-text2 { /* As your personal stylist, my mission is to guide you in discovering a look that makes you feel unique, empowered, and utterly comfortable.   */
+    font-size: 18px;
+    line-height: 33px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .frame14-text1 {/* Confidence Is Timeless and so is Style. */
+    font-size: 80px;
+    line-height: 70px;
+  }
+  .frame14-text2 { /* As your personal stylist, my mission is to guide you in discovering a look that makes you feel unique, empowered, and utterly comfortable.   */
+    font-size: 16px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 1152px) {
+  .frame14-text1 {/* Confidence Is Timeless and so is Style. */
+    font-size: 70px;
+    line-height: 60px;
+  }
+  .frame14-text2 { /* As your personal stylist, my mission is to guide you in discovering a look that makes you feel unique, empowered, and utterly comfortable.   */
+    font-size: 14px;
+    line-height: 26px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .frame14-text1 {/* Confidence Is Timeless and so is Style. */
+    font-size: 60px;
+    line-height: 50px;
+  }
+  .frame14-text2 { /* As your personal stylist, my mission is to guide you in discovering a look that makes you feel unique, empowered, and utterly comfortable.   */
+    font-size: 12px;
+    line-height: 22px;
+  }
+}
+
+@media (max-width: 800px) {
+  .frame14-text1 {/* Confidence Is Timeless and so is Style. */
+    font-size: 50px;
+    line-height: 40px;
+  }
+  .frame14-text2 { /* As your personal stylist, my mission is to guide you in discovering a look that makes you feel unique, empowered, and utterly comfortable.   */
+    font-size: 12px;
+    line-height: 22px;
+  }
+}
+
+@media (max-width: 799px) { /* mobile */
+  .frame14-image1 {
+    width: 80vw;
+    float: none;
+    margin-right: 0;
+  }
+  .frame14-text {
+    position: static;
+    margin-top: calc(70vh - 100vw);
+    left: 0;
+  }
+  .frame14-text1 {/* Confidence Is Timeless and so is Style. */
+    font-size: 9vw;
+    line-height: 8vw;
+  }
+  .frame14-text2 { /* As your personal stylist, my mission is to guide you in discovering a look that makes you feel unique, empowered, and utterly comfortable.   */
+    font-size: 2.3vw;
+    line-height: 4vw;
+    margin-top: 3vw;
+  }
+}
+
+
+
+/* frame 2 */
+.frame2-section {
+  background: #FFECD8;
+  padding: 177px 0 200px 0;
+}
+
+.frame2-title { /* HOT MAMA BAKERY */
+  font-family: 'Amiri';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 150px;
+  line-height: 114px;
+  color: #CC3712;
+}
+
+.frame2-cols-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7vw;
+  margin: 100px 8vw 100px 8vw;
+  font-family: 'Playfair';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 42px;
+  letter-spacing: -0.04em;
+  color: #000000;
+  text-align: left;
+}
+
+.frame2-col {
+  flex: 1;
+  min-width: 300px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  .frame2-title { /* HOT MAMA BAKERY */
+    font-size: 100px;
+  }
+  .frame2-cols-container {
+    flex-direction: column; /* Stack items vertically */
+  }
+}
+
+.button {
+  background: #CC3712;
+  border-radius: 10px;
+  color: #fffed2;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 0;
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+  font-family: 'Pragati Narrow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  align-items: center;
+  letter-spacing: 0.08em;
+  text-align: center;
+}
+.button:hover {
+  background: #782612;
+}
+
+
+
+/* frame 10 */
+.frame10-section {
+  background: #CC3712;
+  padding: 115px 0 115px 0;
+}
+
+.frame10-title-short { /* My Offerings */
+  font-family: 'Antonio';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.1vw;
+  line-height: 2.52vw;
+  letter-spacing: -0.04em;
+}
+
+.frame10-title { /* Tailored collaborations designed to showcase your products and brand in the best light */
+  font-family: 'Antonio';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4.9vw;
+  line-height: 4.9vw;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.frame10-cols-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 100px 8vw 0 8vw;
+}
+
+.frame10-col {
+  flex: 1 1 22%; /* 1: flexible, 1: base size, 22% for 4 columns */
+  padding: 0 20px 0 20px;
+  box-sizing: border-box;
+  font-family: 'Amiri';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: -0.04em;
+  text-align: left;
+}
+
+.frame10-col-title {
+  font-family: 'Antonio';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: -0.04em;
+  margin-bottom: 2.52vw;
+}
+
+@media (max-width: 1024px) {
+  .frame10-col {
+    flex: 1 1 48%; /* 2 columns on medium screens */
+  }
+}
+
+@media (max-width: 600px) {
+  .frame10-title-short { /* My Offerings */
+    font-size: 4.1vw;
+    line-height: 8.52vw;
+  }
+  
+  .frame10-title { /* Tailored collaborations designed to showcase your products and brand in the best light */
+    font-size: 6.9vw;
+    line-height: 6.9vw;
+  }
+  .frame10-col {
+    flex: 1 1 100%; /* 1 column on smaller screens */
+  }
+}
+
+
+
+/* frame 12 */
+.frame12-section {
+  background-image: url(../assets/images/4-0.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  padding: 289px 0 131px 0;
+}
+
+.frame12-title { /* HOT MAMA BAKERY */
+  font-family: 'Anek Devanagari';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 7vw;
+  line-height: 6.3vw;
+  letter-spacing: -0.04em;
+}
+
+.frame12-title-short { /* My Offerings */
+  font-family: 'Playfair';
+  font-style: italic;
+  font-weight: 300;
+  font-size: 3.5vw;
+  line-height: 3.5vw;
+  letter-spacing: -0.04em;
+}
+
+.frame12-cols-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5vw;
+  margin: 100px 0 0 20vw;
+  font-family: 'Playfair';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.1vw;
+  line-height: 2.94vw;
+  letter-spacing: -0.04em;
+}
+
+.frame12-col {
+  flex: 1;
+  min-width: 280px;
+  box-sizing: border-box;
+}
+
+.frame12-buttongroup-vertical {
+  text-align: left;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .frame12-cols-container {
+    margin-left: 0;
+    flex-direction: column; /* Stack items vertically */
+  }
+  .frame12-col {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .frame12-buttongroup-vertical {
+    text-align: center;
+    display: block;
+  }
+}
+
+
+/* frame 1 */
+.frame1-section {
+  background: #CC3712;
+  background-image: url(../assets/images/5-0.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: contain;
+  height: 86.6vw;
+  padding: 40vw 0 7vw 0;
+}
+
+.frame1-title {
+  font-family: 'Anek Devanagari';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 90px;
+  letter-spacing: -0.04em;
+  color: #CC3712;
+}
+
+.frame1-mask {
+  margin-top: -4.4vw;
+  height: 45vw;
+  background-color: #CC3712;
+}
+
+.frame1-cols-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8vw;
+  padding: 100px 12vw 0 12vw;
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 42px;
+  letter-spacing: -0.04em;
+  margin-top: -45vw;
+}
+
+.frame1-col {
+  flex: 1;
+  min-width: 280px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.frame1-col-foot {
+  font-weight: 700;
+}
+
+@media (max-width: 600px) {
+  .frame1-cols-container {
+    margin-left: 0;
+    flex-direction: column; /* Stack items vertically */
+  }
+  .frame1-col {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+
+/* footer */
+.footer-section {
+  background: #FFECD8;
+  padding: 130px 0 130px 0;
+}
+
+.footer-title {
+  font-family: 'Arima Koshi';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 20px;
+  letter-spacing: 0.08em;
+  color: #CC3712;
+}
+
+.footer-button-group{
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 10px;
+  letter-spacing: 0.08em;
+  color: #000000;
+  margin-top: 25px;
+}
+.footer-button {
+  text-decoration: none;
+}
