@@ -70,15 +70,15 @@
         <div class="frame12-title">SIGNATURE IDENTITY</div>
         <div class="frame12-title-short">your pocket style guide</div>
         <div class="frame12-cols-container">
-            <div class="frame12-col">A personal pocket-style guide that has been built for your with a mixture of fashion, science, and behaviour analysis to help you embrace your inner light and character to become unapolgetically yourself.</div>
+            <div class="frame12-col" id="text-guide">A personal pocket-style guide that has been built for your with a mixture of fashion, science, and behaviour analysis to help you embrace your inner light and character to become unapologetically yourself.</div>
             <div class="frame12-col">
                 <div class="frame12-buttongroup-vertical">
                     <div>
                         <div>
-                            <a class="button" style="width:300px; max-width: 60vw;" href="#">GET ENGLISH GUIDE</a>
+                            <a class="button" style="width:300px; max-width: 60vw;" href="javascript:applyEngishGuide()">GET ENGLISH GUIDE</a>
                         </div>
                         <div style="margin-top:15px">
-                            <a class="button" style="width:300px; max-width: 60vw;" href="#">GET UKRANIAN GUIDE</a>
+                            <a class="button" style="width:300px; max-width: 60vw;" href="javascript:applyUkrainianGuide()">GET UKRAINIAN GUIDE</a>
                         </div>
                     </div>
                 </div>
@@ -122,6 +122,13 @@
         element = document.querySelector('.frame14-image1');
         element.classList.add('loaded'); // Add the "loaded" class to trigger the fade-in
     });
+
+    function applyEngishGuide(){
+        document.getElementById("text-guide").innerHTML = "A personal pocket-style guide that has been built for your with a mixture of fashion, science, and behaviour analysis to help you embrace your inner light and character to become unapolgetically yourself.";
+    }
+    function applyUkrainianGuide(){
+        document.getElementById("text-guide").innerHTML = "Персональний кишеньковий гід, створений для вас, який поєднує моду, науку та аналіз поведінки, щоб допомогти вам прийняти своє внутрішнє світло і характер та стати впевненими у собі без жодних вибачень.";
+    }
 </script>
 
 </html>
