@@ -128,6 +128,7 @@
         s += width + "*" + height + "; " + (width / height).toFixed(2) + "; ";
         s += window.matchMedia("(max-width: 800px)").matches + "; "
         s += window.matchMedia("(aspect-ratio < 1)").matches + "; "
+        s += window.matchMedia("(orientation: portrait)").matches + "; "
         document.getElementById("page-title").innerHTML = s;
     });
 
