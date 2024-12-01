@@ -71,7 +71,7 @@ body {
   margin-top: 3.72vh;
 }
 
-@media (aspect-ratio < 1), (orientation: portrait) { /* mobile */
+@media (aspect-ratio < 1) { /* mobile */
   .frame14-title {
     font-size: 6vw;
     line-height: 6vw;
