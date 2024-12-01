@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
     <meta charset="utf-8">
-    <title>FashionScientist</title>
+    <title>FASHION SCIENTIST</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -26,7 +26,7 @@
 
 <body style="margin:0">
     <section id="frame14" class="frame14-section">
-        <div class="frame14-title">FASHION SCIENTIST</div>
+        <div class="frame14-title" id="page-title">FASHION SCIENTIST</div>
         <div style="background-color: white; padding-top: 1px"></div>
         <div>
             <img class="frame14-image1" src="assets/images/1-1.png">
@@ -121,6 +121,14 @@
         element.classList.add('loaded'); // Add the "loaded" class to trigger the fade-in
         element = document.querySelector('.frame14-image1');
         element.classList.add('loaded'); // Add the "loaded" class to trigger the fade-in
+
+        let s = '';
+        const width = window.innerWidth;  // Viewport width in pixels
+        const height = window.innerHeight; // Viewport height in pixels
+        s += width + "*" + height + "; " + (width / height).toFixed(2) + "; ";
+        s += window.matchMedia("(max-width: 800px)").matches + "; "
+        s += window.matchMedia("(aspect-ratio < 1)").matches + "; "
+        document.getElementById("page-title").innerHTML = s;
     });
 
     // function applyEngishGuide(){

@@ -54,8 +54,8 @@ body {
   font-family: 'Amiri';
   font-style: normal;
   font-weight: 700;
-  font-size: 100px;
-  line-height: 90px;
+  font-size: 7vw;
+  line-height: 6.3vw;
 }
 
 .frame14-text1 span{/* Confidence Is Timeless and so is Style. */
@@ -66,83 +66,16 @@ body {
   font-family: 'Helvetica';
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 36px;
-  margin-top: 35px;
+  font-size: 1.4vw;
+  line-height: 2.52vw;
+  margin-top: 3.72vh;
 }
 
-
-@media (max-width: 1440px) {
+@media (aspect-ratio < 1), (orientation: portrait) { /* mobile */
   .frame14-title {
-    font-size: 30px;
+    font-size: 6vw;
+    line-height: 6vw;
   }
-  .frame14-text1 {/* Confidence Is Timeless and so is Style. */
-    font-size: 90px;
-    line-height: 80px;
-  }
-  .frame14-text2 { /* As your personal stylist, my mission is to guide you in discovering a look that makes you feel unique, empowered, and utterly comfortable.   */
-    font-size: 18px;
-    line-height: 33px;
-  }
-}
-
-@media (max-width: 1280px) {
-  .frame14-text1 {/* Confidence Is Timeless and so is Style. */
-    font-size: 80px;
-    line-height: 70px;
-  }
-  .frame14-text2 { /* As your personal stylist, my mission is to guide you in discovering a look that makes you feel unique, empowered, and utterly comfortable.   */
-    font-size: 16px;
-    line-height: 30px;
-  }
-}
-
-@media (max-width: 1152px) {
-  .frame14-text1 {/* Confidence Is Timeless and so is Style. */
-    font-size: 70px;
-    line-height: 60px;
-  }
-  .frame14-text2 { /* As your personal stylist, my mission is to guide you in discovering a look that makes you feel unique, empowered, and utterly comfortable.   */
-    font-size: 14px;
-    line-height: 26px;
-  }
-}
-
-@media (max-width: 1024px) {
-  .frame14-text1 {/* Confidence Is Timeless and so is Style. */
-    font-size: 60px;
-    line-height: 50px;
-  }
-  .frame14-text2 { /* As your personal stylist, my mission is to guide you in discovering a look that makes you feel unique, empowered, and utterly comfortable.   */
-    font-size: 12px;
-    line-height: 22px;
-  }
-}
-
-@media (max-width: 800px) {
-  .frame14-text1 {/* Confidence Is Timeless and so is Style. */
-    font-size: 50px;
-    line-height: 40px;
-  }
-  .frame14-text2 { /* As your personal stylist, my mission is to guide you in discovering a look that makes you feel unique, empowered, and utterly comfortable.   */
-    font-size: 12px;
-    line-height: 22px;
-  }
-}
-
-@media (max-height: 700px) {
-  .frame14-text1 {/* Confidence Is Timeless and so is Style. */
-    font-size: 10vh;
-    line-height: 9vh;
-  }
-  .frame14-text2 { /* As your personal stylist, my mission is to guide you in discovering a look that makes you feel unique, empowered, and utterly comfortable.   */
-    font-size: 2.8vh;
-    line-height: 4.6vh;
-    margin-top: 3.5vh;
-  }
-}
-
-@media (aspect-ratio < 1 / 1) { /* mobile */
   .frame14-image1 {
     width: 80vw;
     float: none;
@@ -214,7 +147,7 @@ body {
     line-height: 6.5vw;
   }
 }
-@media (aspect-ratio < 1 / 1) {
+@media (aspect-ratio < 1), (orientation: portrait) {
   .frame2-section {
     padding: 6vh 0 6vh 0;
   }
@@ -317,7 +250,7 @@ body {
   }
 }
 
-@media (aspect-ratio < 1 / 1) {
+@media (aspect-ratio < 1), (orientation: portrait) {
   .frame10-title-short { /* My Offerings */
     font-size: 4vw;
     line-height: 6vw;
@@ -408,7 +341,7 @@ body {
   }
 }
 
-@media (aspect-ratio < 1 / 1) {
+@media (aspect-ratio < 1), (orientation: portrait) {
   .frame12-title { /* HOT MAMA BAKERY */
     font-size: 10vw;
     line-height: 9vw;
@@ -484,7 +417,7 @@ body {
   }
 }
 
-@media (aspect-ratio < 1 / 1) {
+@media (aspect-ratio < 1), (orientation: portrait) {
   .frame1-title {
     font-size: 11vw;
     line-height: 11vw;
@@ -497,7 +430,7 @@ body {
 /* footer */
 .footer-section {
   background: #FFECD8;
-  padding: 130px 0 130px 0;
+  padding: 9vw 0 9vw 0;
 }
 
 .footer-title {
